@@ -1,15 +1,7 @@
 {
+  "extends": "../tsproject.json",
   "compilerOptions": {
-    "target": "es5",
-    "module": "commonjs",
     "outDir": "../dist/shared",
-    "rootDir": "./",
-    "composite": true,
-    "strict": true,
-    "moduleResolution": "node",
-    "declaration": true,
-    "baseUrl": "./",
-    "paths": {},
-    "esModuleInterop": true
+    "rootDir": "."
   }
 }

@@ -1,3 +1,3 @@
-import { foo } from 'shared/foo';
+import { foo } from '../shared/foo';
 
 console.log(foo);
