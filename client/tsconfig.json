@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "outDir": "../dist/client",
+    "rootDir": "./",
+    "strict": true,
+    "moduleResolution": "node",
+    "declaration": true,
+    "baseUrl": "./",
+    "paths": {
+      "shared/*": ["../dist/shared/*"]
+    },
+    "esModuleInterop": true
+  },
+  "references": [
+    { "path": "../shared" }
+  ]
+}
