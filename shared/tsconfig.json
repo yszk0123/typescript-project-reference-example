@@ -1,7 +1,0 @@
-{
-  "extends": "../tsproject.json",
-  "compilerOptions": {
-    "outDir": "../dist/shared",
-    "rootDir": "."
-  }
-}

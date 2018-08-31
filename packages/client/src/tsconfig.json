@@ -1,0 +1,10 @@
+{
+  "extends": "../../../tsproject.json",
+  "compilerOptions": {
+    "outDir": "../dist",
+    "rootDir": "."
+  },
+  "references": [
+    { "path": "../../shared/src" }
+  ]
+}

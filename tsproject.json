@@ -9,7 +9,7 @@
     "composite": true
   },
   "references": [
-    { "path": "./client" },
-    { "path": "./shared" }
+    { "path": "./packages/client/src" },
+    { "path": "./packages/shared/src" }
   ]
 }

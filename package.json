@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "devDependencies": {
-    "typescript": "^3.0.3"
-  }
+  "workspaces": [
+    "packages/*"
+  ]
 }
